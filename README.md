@@ -2,12 +2,29 @@
 
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=26&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=AI%2FML+Developer;Generative+AI+%7C+LLMs+%7C+RAG;Computer+Vision+%7C+Deep+Learning;Building+Intelligent+Systems" alt="Typing SVG" />
+
+<br/>
+
 ### **A cinematic 3D portfolio built as an interactive AI universe.**
 
+<br/>
 
+<a href="https://github.com/gavijit312">
+  <img src="https://img.shields.io/badge/GitHub-gavijit312-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/avijit-ghosh-530909339/">
+  <img src="https://img.shields.io/badge/LinkedIn-Avijit%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
+<br/><br/>
 
-\
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+<img src="https://img.shields.io/badge/Three.js-3D-black?style=flat-square&logo=three.js" alt="Three.js"/>
+<img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+<img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite"/>
 
 </div>
 
@@ -17,7 +34,7 @@
 
 This is my personal **AI/ML developer portfolio**, designed as a cinematic journey through a digital universe.
 
-Instead of presenting projects through a traditional portfolio layout, the website uses a **deep-space environment** where the visitor moves through galaxies, stars, planets, and AI-inspired visual systems to discover my work.
+Instead of a traditional portfolio layout, the website transforms the entire experience into an interactive **deep-space environment** where visitors move through galaxies, stars, planets, particles, and AI-inspired systems to discover my work.
 
 The portfolio combines:
 
@@ -27,43 +44,44 @@ The portfolio combines:
 
 ---
 
-## ✨ Experience
-
-The portfolio follows a visual journey:
+# 🌌 The Experience
 
 ```text
-                    🌌 SPACE
-                       │
-                       ▼
-                ✦ GALAXY ENTRY
-                       │
-                       ▼
-                 AVIJIT GHOSH
-                       │
-                       ▼
-              BUILDING INTELLIGENCE
-                       │
-                       ▼
-                🌀 DESCEND
-                       │
-                       ▼
-              🚀 PROJECT UNIVERSE
-                       │
-             ┌─────────┼─────────┐
-             ▼         ▼         ▼
-          AI/ML       RAG       CV
-             │         │         │
-             └─────────┼─────────┘
-                       ▼
-                🧠 AI SYSTEMS
-                       │
-                       ▼
-                LET'S BUILD
+                         🌌
+                    ENTER SPACE
+                         │
+                         ▼
+                  ✦ GALAXY ENTRY
+                         │
+                         ▼
+                    AVIJIT GHOSH
+                         │
+                         ▼
+               BUILDING INTELLIGENCE
+                         │
+                         ▼
+                     🌀 DESCEND
+                         │
+                         ▼
+                 🚀 PROJECT UNIVERSE
+                         │
+            ┌────────────┼────────────┐
+            ▼            ▼            ▼
+          AI/ML         RAG           CV
+            │            │            │
+            └────────────┼────────────┘
+                         ▼
+                   🧠 AI SYSTEMS
+                         │
+                         ▼
+                    LET'S BUILD
 ```
+
+The goal is to make the **technology itself part of the portfolio experience**.
 
 ---
 
-# 🌌 Features
+# ✨ Features
 
 ### 🌠 Immersive Space Environment
 
@@ -89,30 +107,30 @@ The portfolio follows a visual journey:
 
 Projects are represented as interactive 3D nodes inside the space environment.
 
-Users can:
+Visitors can:
 
-* Hover over projects
-* See glowing interaction effects
-* Select project planets
+* Hover over project nodes
+* Trigger glowing interaction effects
+* Select projects
 * View project descriptions
 * Explore technologies
-* Navigate to GitHub repositories
+* Navigate directly to repositories
 
 ### 🧠 AI-Inspired Visuals
 
-The portfolio also includes visual elements inspired by AI systems:
+The portfolio incorporates visual concepts inspired by intelligent systems:
 
-* Neural network structures
+* Neural-network structures
 * Connected nodes
-* Data-flow-inspired movement
+* Data-flow animations
 * Particle systems
-* Intelligent-system visual language
+* AI-inspired visual language
 
 ---
 
 # 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 
 | Technology   | Purpose             |
 | ------------ | ------------------- |
@@ -121,17 +139,17 @@ The portfolio also includes visual elements inspired by AI systems:
 | JavaScript   | Application logic   |
 | Tailwind CSS | Styling             |
 
-## 3D & Animation
+### 3D & Animation
 
 | Technology        | Purpose            |
 | ----------------- | ------------------ |
 | Three.js          | 3D rendering       |
 | React Three Fiber | React-based 3D     |
-| Drei              | 3D helpers         |
+| Drei              | Three.js helpers   |
 | Framer Motion     | UI animation       |
 | GSAP              | Advanced animation |
 
-## Development
+### Development
 
 | Tool    | Purpose                 |
 | ------- | ----------------------- |
@@ -143,7 +161,7 @@ The portfolio also includes visual elements inspired by AI systems:
 
 # 🧠 AI / ML Focus
 
-The portfolio showcases my work across:
+The portfolio showcases work across:
 
 ```text
 Artificial Intelligence
@@ -169,33 +187,34 @@ Semantic Search
 
 An advanced Retrieval-Augmented Generation system combining multiple retrieval strategies.
 
-### Pipeline
+### Architecture
 
 ```text
-User Query
-    │
-    ├───────────────┐
-    ▼               ▼
-Dense Retrieval   BM25
-    │               │
-    └───────┬───────┘
-            ▼
-      Candidate Chunks
-            │
-            ▼
-    Cross-Encoder Reranking
-            │
-            ▼
-    Retrieval Evaluation
-            │
-            ▼
-           LLM
-            │
-            ▼
-       Final Answer
+                         USER QUERY
+                              │
+                    ┌─────────┴─────────┐
+                    ▼                   ▼
+              Dense Retrieval          BM25
+                    │                   │
+                    └─────────┬─────────┘
+                              ▼
+                       Candidate Chunks
+                              │
+                              ▼
+                   Cross-Encoder Reranking
+                              │
+                              ▼
+                    Retrieval Evaluation
+                              │
+                              ▼
+                             LLM
+                              │
+                              ▼
+                        FINAL ANSWER
 ```
 
-**Technologies:**
+**Technologies**
+
 `Python` `FAISS` `BM25` `CrossEncoder` `RAG` `FastAPI` `LLMs`
 
 ---
@@ -205,28 +224,29 @@ Dense Retrieval   BM25
 A multi-agent AI system designed for legal, financial, compliance, and risk analysis.
 
 ```text
-                    Documents
-                       │
-                       ▼
-                      RAG
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-      Legal         Finance       Compliance
-      Agent          Agent           Agent
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-                   Risk Agent
-                       │
-                       ▼
-                 Summary Agent
-                       │
-                       ▼
-                  Final Report
+                         DOCUMENTS
+                             │
+                             ▼
+                            RAG
+                             │
+          ┌──────────────────┼──────────────────┐
+          ▼                  ▼                  ▼
+       LEGAL              FINANCE          COMPLIANCE
+       AGENT               AGENT              AGENT
+          │                  │                  │
+          └──────────────────┼──────────────────┘
+                             ▼
+                         RISK AGENT
+                             │
+                             ▼
+                       SUMMARY AGENT
+                             │
+                             ▼
+                       FINAL REPORT
 ```
 
-**Technologies:**
+**Technologies**
+
 `LangGraph` `LangChain` `RAG` `LLMs` `FastAPI` `Streamlit`
 
 ---
@@ -237,21 +257,28 @@ A computer vision and deep learning system for recognizing Indian Sign Language 
 
 ```text
 Video / Webcam
-       ↓
+       │
+       ▼
 MediaPipe Holistic
-       ↓
+       │
+       ▼
 Landmark Extraction
-       ↓
+       │
+       ▼
 Feature Sequences
-       ↓
+       │
+       ▼
 Deep Learning Model
-       ↓
+       │
+       ▼
 Gesture / Word
-       ↓
+       │
+       ▼
 Sentence Output
 ```
 
-**Technologies:**
+**Technologies**
+
 `Python` `MediaPipe` `PyTorch` `LSTM` `Attention` `Computer Vision`
 
 ---
@@ -260,7 +287,8 @@ Sentence Output
 
 A deep learning computer vision project for skin lesion classification using dermatological image data.
 
-**Technologies:**
+**Technologies**
+
 `Python` `TensorFlow` `CNN` `OpenCV` `HAM10000`
 
 ---
@@ -269,7 +297,8 @@ A deep learning computer vision project for skin lesion classification using der
 
 A deep learning system designed to classify images as real or AI-generated.
 
-**Technologies:**
+**Technologies**
+
 `PyTorch` `EfficientNet` `Computer Vision` `Deep Learning`
 
 ---
@@ -325,43 +354,37 @@ avijit-portfolio/
 
 # ⚡ Getting Started
 
-## 1. Clone the repository
+### 1. Clone
 
 ```bash
 git clone https://github.com/gavijit312/avijit-portfolio.git
 ```
 
-## 2. Navigate to the project
+### 2. Enter the project
 
 ```bash
 cd avijit-portfolio
 ```
 
-## 3. Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-## 4. Start development server
+### 4. Start development server
 
 ```bash
 npm run dev
 ```
 
-The application will be available at the local URL provided by Vite.
-
----
-
-# 🔧 Development
-
-Build the production version:
+### 5. Build for production
 
 ```bash
 npm run build
 ```
 
-Preview the production build:
+### 6. Preview production build
 
 ```bash
 npm run preview
@@ -414,35 +437,36 @@ npm run preview
 
 # 🎨 Design Philosophy
 
-The goal is not simply to make a portfolio that looks futuristic.
+This portfolio is designed around one principle:
 
-The goal is to make the **technology itself part of the experience**.
+> **The interface should communicate the technology, not just display it.**
+
+Traditional portfolio:
 
 ```text
-Traditional Portfolio
-
 Home → About → Skills → Projects → Contact
-
-
-This Portfolio
-
-                 🌌
-              ENTER
-                ↓
-             EXPLORE
-                ↓
-             DESCEND
-                ↓
-            DISCOVER
-                ↓
-          AI UNIVERSE
-                ↓
-            PROJECTS
-                ↓
-             CONNECT
 ```
 
-The interface combines:
+This portfolio:
+
+```text
+                       🌌
+                    ENTER
+                      ↓
+                   EXPLORE
+                      ↓
+                   DESCEND
+                      ↓
+                  DISCOVER
+                      ↓
+                AI UNIVERSE
+                      ↓
+                  PROJECTS
+                      ↓
+                  CONNECT
+```
+
+The experience combines:
 
 * **3D graphics**
 * **AI-inspired visualization**
@@ -452,9 +476,9 @@ The interface combines:
 
 ---
 
-# 📈 Performance Goals
+# 📈 Performance
 
-Because the portfolio uses WebGL and a large number of particles, performance is an important part of development.
+Because the portfolio uses WebGL and large particle systems, performance is an important engineering consideration.
 
 Planned optimizations include:
 
@@ -473,25 +497,37 @@ Planned optimizations include:
 
 I'm **Avijit Ghosh**, an AI/ML-focused developer interested in building intelligent applications using modern AI technologies.
 
-My interests include:
+### Areas of Interest
 
 `Generative AI` · `LLMs` · `RAG` · `Agentic AI` · `Computer Vision` · `Deep Learning`
 
-I'm particularly interested in turning AI research and concepts into **usable real-world applications**.
+I enjoy transforming AI concepts and research into **practical, usable real-world applications**.
 
 ---
 
-# 🌐 Connect
+# 🌐 Connect With Me
 
 <div align="center">
 
-### GitHub
+### Let's Connect
 
-**[@gavijit312](https://github.com/gavijit312)**
+<a href="https://github.com/gavijit312">
+  <img src="https://cdn.simpleicons.org/github/white" width="55" height="55" alt="GitHub"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/avijit-ghosh-530909339/">
+  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="55" height="55" alt="LinkedIn"/>
+</a>
 
-### LinkedIn
+<br/><br/>
 
-**[Avijit Ghosh](https://www.linkedin.com/in/avijit-ghosh-530909339/)**
+<a href="https://github.com/gavijit312">
+  <b>GitHub</b>
+</a>
+&nbsp;&nbsp; • &nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/avijit-ghosh-530909339/">
+  <b>LinkedIn</b>
+</a>
 
 </div>
 
@@ -505,6 +541,8 @@ I'm particularly interested in turning AI research and concepts into **usable re
 
 `AI/ML` · `Generative AI` · `Computer Vision` · `LLMs` · `3D Web`
 
-⭐ If you like the project, consider giving it a star!
+<br/>
+
+⭐ **If you like the project, consider giving it a star!**
 
 </div>
