@@ -1,0 +1,458 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  color: white;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.hero-content {
+  width: 100%;
+  max-width: 1200px;
+
+  padding: 40px 24px;
+
+  text-align: center;
+
+  animation: heroAppear 1.5s
+    cubic-bezier(0.16, 1, 0.3, 1)
+    forwards;
+}
+
+
+/* =========================================================
+   STATUS
+========================================================= */
+
+.hero-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-bottom: 32px;
+
+  font-size: 11px;
+
+  letter-spacing: 5px;
+
+  color: rgba(255, 255, 255, 0.55);
+
+  animation: statusAppear 1s ease forwards;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #8b7cff;
+
+  box-shadow:
+    0 0 8px #8b7cff,
+    0 0 20px #8b7cff;
+
+  animation: pulse 2s infinite;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.hero-title {
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: clamp(
+    70px,
+    14vw,
+    180px
+  );
+
+  line-height: 0.78;
+
+  letter-spacing: -0.08em;
+
+  font-weight: 700;
+
+  color: white;
+
+  animation: titleReveal 1.6s
+    cubic-bezier(0.16, 1, 0.3, 1)
+    forwards;
+}
+
+.hero-title span {
+  display: block;
+}
+
+.hero-title-muted {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+
+/* =========================================================
+   TAGLINE
+========================================================= */
+
+.hero-tagline {
+  margin: 42px 0 0;
+
+  font-size: clamp(
+    14px,
+    1.5vw,
+    19px
+  );
+
+  letter-spacing: 5px;
+
+  color: rgba(255, 255, 255, 0.58);
+
+  animation: fadeUp 1s
+    1s
+    both;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.hero-description {
+  max-width: 600px;
+
+  margin: 18px auto 0;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+
+  color: rgba(255, 255, 255, 0.4);
+
+  animation: fadeUp 1s
+    1.25s
+    both;
+}
+
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.hero-actions {
+  margin-top: 35px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+
+  pointer-events: auto;
+
+  animation: fadeUp 1s
+    1.5s
+    both;
+}
+
+.hero-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 9px;
+
+  padding: 12px 20px;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.5px;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    border 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+}
+
+
+/* Primary */
+
+.hero-button-primary {
+  background: white;
+
+  color: black;
+
+  border: 1px solid white;
+}
+
+.hero-button-primary:hover {
+  box-shadow:
+    0 0 30px
+    rgba(255, 255, 255, 0.3);
+}
+
+
+/* Secondary */
+
+.hero-button-secondary {
+  background:
+    rgba(255, 255, 255, 0.04);
+
+  color:
+    rgba(255, 255, 255, 0.75);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.16);
+
+  backdrop-filter: blur(12px);
+}
+
+.hero-button-secondary:hover {
+  background:
+    rgba(255, 255, 255, 0.09);
+
+  border-color:
+    rgba(255, 255, 255, 0.3);
+}
+
+
+/* =========================================================
+   SCROLL INDICATOR
+========================================================= */
+
+.hero-scroll {
+  position: absolute;
+
+  bottom: 28px;
+
+  left: 50%;
+
+  transform:
+    translateX(-50%);
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color:
+    rgba(255, 255, 255, 0.35);
+
+  animation:
+    fadeUp 1s
+    2s
+    both;
+}
+
+.hero-scroll span {
+  font-size: 9px;
+
+  letter-spacing: 4px;
+}
+
+.scroll-arrow {
+  font-size: 18px;
+
+  animation:
+    scrollBounce 1.8s
+    infinite;
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes heroAppear {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(30px)
+      scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+
+@keyframes titleReveal {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(40px)
+      scale(0.92);
+
+    filter: blur(15px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0)
+      scale(1);
+
+    filter: blur(0);
+  }
+}
+
+
+@keyframes statusAppear {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0);
+  }
+}
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0);
+  }
+}
+
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+
+    transform: scale(0.85);
+
+    box-shadow:
+      0 0 8px #8b7cff,
+      0 0 15px #8b7cff;
+  }
+
+  50% {
+    opacity: 1;
+
+    transform: scale(1.15);
+
+    box-shadow:
+      0 0 12px #8b7cff,
+      0 0 30px #8b7cff;
+  }
+}
+
+
+@keyframes scrollBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: translateY(8px);
+
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .hero-status {
+    font-size: 9px;
+
+    letter-spacing: 3px;
+  }
+
+  .hero-title {
+    font-size: clamp(
+      64px,
+      20vw,
+      110px
+    );
+  }
+
+  .hero-tagline {
+    font-size: 12px;
+
+    letter-spacing: 3px;
+  }
+
+  .hero-description {
+    font-size: 13px;
+
+    max-width: 340px;
+  }
+
+  .hero-actions {
+    margin-top: 28px;
+  }
+
+  .hero-button {
+    padding: 11px 17px;
+  }
+}
